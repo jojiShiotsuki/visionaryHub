@@ -2,30 +2,65 @@
 <html lang="en">
 	<head>
     	<meta charset="utf-8">
-    	<meta name="description" content="Landing page of Visionary Hub">
+    	<meta name="description" content="Landing page of ">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Home</title>
+		<title>Visionary Hub</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/mainStyle.css">
 	</head>
 	<body>
-
-		<h1>Search for an art object</h1>
-		<input id="getTotalInput" type="text" name="" value="">
-		<button id="getTotalButton" type="button" name="button">Generate!</button>
-		<h2 id="totalArt">Total Art Pieces </h2>
+		<!-- mobile responsive -->
 		
-		<button id="previousArt" type="button" name="button">Previous</button>
-		<button id="nextArt" type="button" name="button">Next</button>
-		
-		<section class="artContainer">
-			<h3 id="artTitle" class="title">Title of Art</h3>
-			<img id="pmImage" class="pmImage" src="" alt="no image">
-			<p id="loadingMessage"></p>
+		<section class="headerBody">
+			<header class="headerContainer">
+				<h1 class="webName">VISIONARY HUB</h1>
+			</header>
+			
+			<section class="titleContainer">	
+				<h2 class="title">Museum stuff and more,<br> all for you to look at!</h2>
+			</section>
+			
+			<main class="mainContainer">
+				<section class="inputContainer">
+					<input id="getTotalInput" type="text" name="" value="" placeholder="example :cars/ windows/ mouse">
+					<button id="getTotalButton" type="button" name="button" >▶</button>
+				</section>
+			</main>
 		</section>
+		
+		<footer class="footerContainer">
+			<section class="bottomSectionContainer">
+				<h1 class="footerWebName">VISIONARY HUB</h1>
+				<h2 id="totalArt">Total Art Pieces </h2>
+				
+				<section class="artContainer">
+					<section class="authorAndTitleContainer">
+						<h2 id="author"></h2>
+						<h4 id="artTitle"></h4>
+					</section>
+					<section class="imageArtContainer">
+						<img id="pmImage" class="pmImage" src="" alt="no image">
+					</section>
+					<section class="descriptionContainer">
+						<h5 id="description"></h5>
+					</section>
+				</section>
+				<section class="buttons">
+					<section>
+						<button id="previousArt" type="button" name="button">Previous</button>
+					</section>
+					<section>
+						<button id="nextArt" type="button" name="button">Next</button>
+					</section>
+				</section>
+				
+				<p id="loadingMessage"></p>
+			</section>
+		</footer>
+		
 		
 
 		<script type="text/javascript" src="js/main.js"></script>
