@@ -13,11 +13,6 @@ Tech used: HTML5, CSS3, JavaScript
 Display Multiple Items:
 
 Enhance the user experience by displaying multiple paintings or objects at once on the application interface.
-Lessons Learned:
-
-API Integration: Gained valuable experience in working with APIs to fetch and display dynamic content on the web application.
-
-## Future Development Ideas:
 
 User Preferences:
 
@@ -28,3 +23,7 @@ Add filtering and sorting options to enable users to refine the displayed conten
 Responsive Design:
 
 Ensure optimal viewing experience across various devices with a focus on responsive design.
+
+## Lessons Learned:
+
+API Integration: Gained valuable experience in working with APIs to fetch and display dynamic content on the web application.
